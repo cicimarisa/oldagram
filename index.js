@@ -40,7 +40,7 @@ for (const post of posts) {
         <small class="d-block">${post.location}</small></p>
     </div>
     <img src="${post.post}" alt="" class="post-content">
-    <div class="action">
+    <div class="action d-flex">
         <button class="general like-btn"></button>
         <button class="general comment-btn"></button>
         <button class="general dm-btn"></button>
