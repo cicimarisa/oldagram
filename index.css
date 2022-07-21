@@ -4,6 +4,7 @@ html, body {
     text-align: center;  
     font-weight: 300;
     font-size: 1rem;
+    font-family: 'Source Sans Pro', sans-serif;
 }
 
 body{
@@ -38,7 +39,7 @@ strong{
 }
 
 .user-info{
-    margin: 1.2em 0;
+    margin: .6em 0 1.2em 0;
 }
 
 .post-content{
@@ -52,6 +53,13 @@ strong{
 
 header, section{
     background: #fff;
+}
+
+header{
+    padding: .5em 2em;
+}
+
+section{
     padding: 2em;
 }
 
